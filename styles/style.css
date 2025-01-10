@@ -14,14 +14,24 @@
     border: none;
     color: white;
 }
+.description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
 
 /* styling navbar */
 nav{
+  
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
     align-items: center;
     height: 100px;
-    padding: 10px 160px;
+    padding: 10px 78px;  
 }
 nav h1{
     color: rgb(14, 14, 14);
@@ -78,3 +88,60 @@ nav button{
     text-align: left;
     /* margin:12px 60px 18px 0px; */
 }
+
+
+/* pillar section */
+.pillar-section{
+    width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30; 
+    padding: 0px;
+}
+.pillar-section h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.pillar-container{
+    display: flex;
+    justify-content: space-between;
+   gap: 22px;
+    margin-top: 30px;
+}
+.pillar{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 250px;
+    height: 240px;
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 24;
+   padding: 16px;
+}
+.pillar img{
+    width: 45px;
+    height: 48px;
+    left: 10px;
+    top: 1px;
+}
+.pillar h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 20px 0px 10px 0px;
+}
+
