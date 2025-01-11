@@ -18,6 +18,11 @@ body{
     border: none;
     color: white;
 }
+.btn:hover{
+    border: 1px solid rgb(0, 106, 80);
+    background: white;
+    color: rgb(0, 106, 80);
+}
 .description{
     color: rgba(14, 14, 14, 0.7);
     font-family: Fira Sans;
@@ -74,6 +79,12 @@ nav button{
     height: 45px;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
+    cursor: pointer;
+}
+nav button:hover{
+    background-color: rgb(0, 106, 80);
+    color: white;
+
 }
 
 /* banner section */
@@ -235,6 +246,15 @@ nav button{
     border: none;
     color: white;
  }
+ .btn-1:hover{
+    opacity: 0.8;
+ }
+ .btn-2:hover{
+    opacity: 0.8;
+ }
+ .btn-3:hover{
+    opacity: 0.8;
+ }
  .card .btn-2{
     width: 122px;
     height: 41px;
@@ -305,21 +325,24 @@ text-align: left;
    text-align: left;
 }
 
+/* Opinion section*/
+ 
 .Opinion {
-    margin: 80px 160px;
+    width: 1200px;
+    margin: 0 auto;
  
 }
 .title {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 45px;
     letter-spacing: 0%;
     text-align: left;
     margin: 32px 0px;
 }
-.container {
+.opinion-container {
     padding: 32px;
     font-family: Fira Sans;
     border-radius: 16px;
@@ -329,7 +352,7 @@ text-align: left;
 .t-head {
     display: flex;
     justify-content: space-between;
-    gap: 875px;
+    gap: 800px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background-color: rgb(198, 228, 214);
     align-items: center;
@@ -356,7 +379,7 @@ td,th {
     font-family: Fira Sans;
     font-size: 16px;
     font-weight: 600;
-    line-height: 19px;
+    line-height: 15px;
     letter-spacing: 0%;
     text-align: left;
 }
@@ -367,8 +390,8 @@ td,th {
  
 table {
     border-collapse: collapse;
-    width: 1216px;
-    height: 92px;
+    width: 100%;
+    height: 90px;
     padding: 24px;
 }
  
@@ -381,11 +404,16 @@ select {
     padding: 10px 14px;
     background-color: rgb(198, 228, 214);
     height: 44px;
-    width: 152px;
+    width: 150px;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
     font-family: Fira Sans;
+}
+ 
+select:hover {
+    background-color: rgb(147, 221, 188);
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -523,19 +551,6 @@ line-height: 48px;
 
  /* letter section */
 
-/* .letter{
-    width: 1200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 64px;
-    margin: ;
-    padding: 80px 100px 80px 100px;
-    border-radius: 24px;
-    background: rgb(198, 228, 214);
-} */
-
 
 .letter{
     width: 1200px;
@@ -590,6 +605,9 @@ background: rgb(0, 106, 80);
 color: white;
 padding: 18px 40px 18px 40px;
 }
+.subs-btn:hover{
+    opacity: 0.8;
+}
 .email::placeholder {
     color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
@@ -606,7 +624,7 @@ padding: 18px 40px 18px 40px;
     justify-content: center;
     align-items: center;
     gap: 24px;
-    margin: 80px auto;
+    margin: 80px auto 0px;
     padding: 15px 10px 15px 10px;
     border-radius: 24px;
 }
