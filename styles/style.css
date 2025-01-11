@@ -231,3 +231,54 @@ nav button{
     border: none;
     color: white;
  }
+
+ /* yunus section */
+ #yunus{
+    width: 1150px;
+    margin: 0 auto;
+    padding: 48px 24px 48px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 24px 20px;
+    
+ }
+ #yunus .description{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+ }
+
+ #yunus h1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+     font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+ }
+#yunus .sub-title{
+    color: rgba(14, 14, 14, 0.8);
+   font-family: Fira Sans;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 24px;
+    letter-spacing: 0%;
+   text-align: left;
+}
+
+ 
+
+
