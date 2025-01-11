@@ -6,6 +6,9 @@
     font-family: Fira Sans;
 
 }
+body{
+    background-color: #f1f1f3;
+}
 
 /* share styles */
 .btn{
@@ -23,6 +26,9 @@
     line-height: 20px;
     letter-spacing: 0%;
     text-align: left;
+}
+.bg{
+    background: rgb(198, 228, 214,0.2);
 }
 .headline{
     color: rgb(14, 14, 14);
@@ -68,7 +74,6 @@ nav button{
     height: 45px;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
-    background-color: white;
 }
 
 /* banner section */
@@ -300,6 +305,90 @@ text-align: left;
    text-align: left;
 }
 
+.Opinion {
+    margin: 80px 160px;
+ 
+}
+.title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 32px 0px;
+}
+.container {
+    padding: 32px;
+    font-family: Fira Sans;
+    border-radius: 16px;
+    background-color: white;
+}
+ 
+.t-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 875px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: rgb(198, 228, 214);
+    align-items: center;
+    padding: 24px;
+}
+ 
+.t-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+ 
+td,th {
+    border: 1px solid black;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    text-align: start;
+    padding: 24px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+ 
+.t-opinion {
+    text-align: center;
+}
+ 
+table {
+    border-collapse: collapse;
+    width: 1216px;
+    height: 92px;
+    padding: 24px;
+}
+ 
+.options {
+    background-color: rgb(198, 228, 214);
+}
+ 
+select {
+    border-radius: 4px;
+    padding: 10px 14px;
+    background-color: rgb(198, 228, 214);
+    height: 44px;
+    width: 152px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Fira Sans;
+}
+
+
 /* recent section */
 
  .recent{
@@ -369,3 +458,164 @@ text-align: left;
     margin-bottom: 12px;
 }
 
+.donate{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    padding: 0px;
+    margin: 80px auto;
+}
+.donate-title{
+    font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donate-detail{
+   
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin: 16px 60px 16px 60px;
+}
+.money-container{
+    display: flex;
+    flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+gap: 24px;
+padding: 0px;
+margin: 32px 0px;
+}
+.amount{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 35px;
+}
+.amount h1{
+    color:rgba(14, 14, 14, 0.8) ; 
+    font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+}
+.other input{
+    padding: 20px 40px 20px 40px;
+    width: 700px;
+    justify-content: center;
+    border: none;
+}
+.other-amount::placeholder{
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+ /* letter section */
+
+/* .letter{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    margin: ;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+} */
+
+
+.letter{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 80px auto;
+    padding: 80px 0px 80px 0px;
+    background: rgb(198, 228, 214);
+    border-radius: 24px;
+}
+.letter-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+.letter-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+margin: 0px 64px 24px 64px;
+width: 600px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 600px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 40px 18px 40px;
+}
+.subs-btn{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+background: rgb(0, 106, 80);
+color: white;
+padding: 18px 40px 18px 40px;
+}
+.email::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footer{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 80px auto;
+    padding: 15px 10px 15px 10px;
+    border-radius: 24px;
+}
+.footer-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
